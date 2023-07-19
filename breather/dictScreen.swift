@@ -11,7 +11,7 @@ struct dictScreen: View {
     var body: some View {
         VStack{
             Text("Dictonary")
-                .Spacer
+                .padding()
             Text("")
         
         }
