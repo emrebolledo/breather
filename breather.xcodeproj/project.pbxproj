@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDB5DA282A66E5A600BB0F81 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5DA272A66E5A600BB0F81 /* SwiftUIView.swift */; };
-		BDB5DA2A2A66E5FF00BB0F81 /* nextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5DA292A66E5FF00BB0F81 /* nextPage.swift */; };
+		BD7BE1F32A67289E006E4EF7 /* trackerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BE1F22A67289E006E4EF7 /* trackerScreen.swift */; };
+		BD7BE1F52A6728CB006E4EF7 /* factScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BE1F42A6728CB006E4EF7 /* factScreen.swift */; };
+		BD7BE1F72A6728ED006E4EF7 /* resourceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BE1F62A6728ED006E4EF7 /* resourceScreen.swift */; };
+		BD7BE1F92A672902006E4EF7 /* aboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BE1F82A672902006E4EF7 /* aboutUs.swift */; };
+		BD7BE1FB2A672919006E4EF7 /* dictScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BE1FA2A672919006E4EF7 /* dictScreen.swift */; };
+		BD9892082A6713B3001CC2F9 /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9892072A6713B3001CC2F9 /* homeScreen.swift */; };
 		BDD27B402A65D90000E67B84 /* breatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD27B3F2A65D90000E67B84 /* breatherApp.swift */; };
-		BDD27B422A65D90000E67B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD27B412A65D90000E67B84 /* ContentView.swift */; };
+		BDD27B422A65D90000E67B84 /* loadingScreen in Sources */ = {isa = PBXBuildFile; fileRef = BDD27B412A65D90000E67B84 /* loadingScreen */; };
 		BDD27B442A65D90100E67B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD27B432A65D90100E67B84 /* Assets.xcassets */; };
 		BDD27B472A65D90100E67B84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD27B462A65D90100E67B84 /* Preview Assets.xcassets */; };
+		BDD7D2552A6718150046E882 /* mainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7D2542A6718150046E882 /* mainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BDB5DA272A66E5A600BB0F81 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		BDB5DA292A66E5FF00BB0F81 /* nextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextPage.swift; sourceTree = "<group>"; };
+		BD7BE1F22A67289E006E4EF7 /* trackerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackerScreen.swift; sourceTree = "<group>"; };
+		BD7BE1F42A6728CB006E4EF7 /* factScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = factScreen.swift; sourceTree = "<group>"; };
+		BD7BE1F62A6728ED006E4EF7 /* resourceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourceScreen.swift; sourceTree = "<group>"; };
+		BD7BE1F82A672902006E4EF7 /* aboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUs.swift; sourceTree = "<group>"; };
+		BD7BE1FA2A672919006E4EF7 /* dictScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictScreen.swift; sourceTree = "<group>"; };
+		BD9892072A6713B3001CC2F9 /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
 		BDD27B3C2A65D90000E67B84 /* breather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD27B3F2A65D90000E67B84 /* breatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breatherApp.swift; sourceTree = "<group>"; };
-		BDD27B412A65D90000E67B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDD27B412A65D90000E67B84 /* loadingScreen */ = {isa = PBXFileReference; lastKnownFileType = text; path = loadingScreen; sourceTree = "<group>"; };
 		BDD27B432A65D90100E67B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD27B462A65D90100E67B84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD7D2542A6718150046E882 /* mainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				BDD27B3F2A65D90000E67B84 /* breatherApp.swift */,
-				BDD27B412A65D90000E67B84 /* ContentView.swift */,
-				BDB5DA272A66E5A600BB0F81 /* SwiftUIView.swift */,
-				BDB5DA292A66E5FF00BB0F81 /* nextPage.swift */,
+				BD9892072A6713B3001CC2F9 /* homeScreen.swift */,
+				BDD7D2542A6718150046E882 /* mainScreen.swift */,
+				BD7BE1FA2A672919006E4EF7 /* dictScreen.swift */,
+				BD7BE1F82A672902006E4EF7 /* aboutUs.swift */,
+				BD7BE1F62A6728ED006E4EF7 /* resourceScreen.swift */,
+				BD7BE1F42A6728CB006E4EF7 /* factScreen.swift */,
+				BD7BE1F22A67289E006E4EF7 /* trackerScreen.swift */,
+				BDD27B412A65D90000E67B84 /* loadingScreen */,
 				BDD27B432A65D90100E67B84 /* Assets.xcassets */,
 				BDD27B452A65D90100E67B84 /* Preview Content */,
 			);
@@ -143,10 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD27B422A65D90000E67B84 /* ContentView.swift in Sources */,
-				BDB5DA2A2A66E5FF00BB0F81 /* nextPage.swift in Sources */,
+				BD7BE1F32A67289E006E4EF7 /* trackerScreen.swift in Sources */,
+				BDD7D2552A6718150046E882 /* mainScreen.swift in Sources */,
+				BD7BE1F72A6728ED006E4EF7 /* resourceScreen.swift in Sources */,
+				BD7BE1F92A672902006E4EF7 /* aboutUs.swift in Sources */,
+				BDD27B422A65D90000E67B84 /* loadingScreen in Sources */,
+				BD7BE1F52A6728CB006E4EF7 /* factScreen.swift in Sources */,
+				BD9892082A6713B3001CC2F9 /* homeScreen.swift in Sources */,
+				BD7BE1FB2A672919006E4EF7 /* dictScreen.swift in Sources */,
 				BDD27B402A65D90000E67B84 /* breatherApp.swift in Sources */,
-				BDB5DA282A66E5A600BB0F81 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
