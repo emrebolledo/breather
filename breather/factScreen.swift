@@ -9,34 +9,57 @@ import SwiftUI
 
 struct factScreen: View {
     var body: some View {
-        VStack(spacing:320) {
-            Text("Health Affects From Smoking")
-                .font(.title2)
-                .fontWeight(.bold)
-            Image("logo")
-             ----------------------
-                ZStack {
-                  Color(.systemGray)
-                    .ignoresSafeArea()
-                  VStack(alignment: .leading, spacing: 20.0) {
-                    Image("___")
-                     
-                    HStack {
-                      Text("yer")
+        
+        ZStack {
+            Image("Sunset2").resizable(resizingMode: .stretch).aspectRatio(contentMode: .fill).foregroundColor(Color("AccentColor")).ignoresSafeArea()
+            
+            VStack(spacing:480) {
+                Text("Health Affects From Smoking")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                Text("`")
+                    .fontWeight(.ultraLight)
+                    .foregroundColor(Color.white)
+        
                 }
-                    Text("..")
-                      .font(.body)
-                      .multilineTextAlignment(.leading)
-                      .padding()
-                  }.padding().background(Rectangle() .foregroundColor(.white)).cornerRadius(15).shadow(radius: 15) .padding()
-                }    }
+            VStack(spacing: 25) {
+            NavigationLink(destination: vapeScreen()) {
+                Text("Vaping")
+                    .foregroundColor(Color.black)    .font(.title)
+
+                }
+            NavigationLink(destination: weedScreen()) {
+                Text("Weed")           .foregroundColor(Color.black)            .font(.title)
+
+
+                }
+            NavigationLink(destination: healthScreen()) {
+                Text("Teen Mental Health")   .foregroundColor(Color.black).font(.title)
+
+                }
+            }
+            
+            }
+            
+          
             }
         }
-
+        
     
-
-struct factScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        factScreen()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    struct factScreen_Previews: PreviewProvider {
+        static var previews: some View {
+            factScreen()
+        }
     }
-}
+

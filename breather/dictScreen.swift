@@ -9,10 +9,13 @@ import SwiftUI
 
 struct dictScreen: View {
     var body: some View {
-        VStack{
+        VStack(spacing: 20){
             Text("Dictonary")
                 .padding()
-            Text("")
+            Text("Instructing: Information telling how something should be done, opreated,or assembled.")
+            Text("Teen: Someone the age of 13-19.")
+            Text("Antismoking: opposed to or promoting the discontinuance of the smoking of tobacco.")
+            Text("Smoking Cessation: Another word for to say quit smoking.")
         
         }
     }

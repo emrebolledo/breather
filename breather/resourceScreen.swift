@@ -10,6 +10,8 @@ import SwiftUI
 struct resourceScreen: View {
     var body: some View {
         Text("Resources")
+            .padding()
+        Text("ADAA")
     }
 }
 
