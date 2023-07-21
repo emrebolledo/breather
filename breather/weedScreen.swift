@@ -9,14 +9,15 @@ import SwiftUI
 
 struct weedScreen: View {
 var body: some View {
+    
     NavigationStack {
+        ZStack {
+            Image("Sunset4").resizable(resizingMode: .stretch).aspectRatio(contentMode: .fill).foregroundColor(Color("AccentColor")).ignoresSafeArea()
         ScrollView {
-            ZStack {
-                Image("Sunset4")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fill)
+           
                 VStack{
-                    Text("Marjuana").foregroundColor(Color(hue: 1.0, saturation: 0.511, brightness: 0.784))
+                    Spacer().frame(height:45)
+                    Text("Marijuana").foregroundColor(Color(hue: 1.0, saturation: 0.511, brightness: 0.784))
                         .font(.title2)
                         .fontWeight(.black)
                         .multilineTextAlignment(.leading)
@@ -27,7 +28,7 @@ var body: some View {
                     Text("         Studies indicate a link between marijuana use and an increased risk of mental health disorders, such as schizophrenia, depression, and anxiety in individuals who are genetically predisposed.").multilineTextAlignment(.leading)
                     Text("         Withdrawal symptoms include: Irritability. Changes in mood. Difficulty sleeping. Decrease in appetite. Cravings for marijuana. Restlessness.").multilineTextAlignment(.leading)
                     Text("Negative effects of teen marijuana use include: Difficulty thinking and problem-solving Problems with memory and learning Reduced coordination Difficulty maintaining attention Problems with school and social life").multilineTextAlignment(.leading)
-                }
+                } .padding()
                 }
             }
         }
