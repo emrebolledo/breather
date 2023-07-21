@@ -11,12 +11,12 @@ struct factScreen: View {
     var body: some View {
         
         ZStack {
-            Image("Sunset2").resizable(resizingMode: .stretch).aspectRatio(contentMode: .fill).foregroundColor(Color("AccentColor")).ignoresSafeArea()
+            Image("Sunset2").resizable(resizingMode: .stretch).aspectRatio(contentMode: .fill).ignoresSafeArea()
             
-            VStack(spacing:480) {
-                Text("Health Affects From Smoking")
-                    .font(.title2)
-                    .fontWeight(.bold)
+            VStack(spacing:420) {
+                Text("Health Affects From Smoking").foregroundColor(Color(hue: 1.0, saturation: 0.511, brightness: 0.784))
+                    .font(.title)
+                    .fontWeight(.bold).padding()
                 Text("`")
                     .fontWeight(.ultraLight)
                     .foregroundColor(Color.white)
@@ -24,37 +24,33 @@ struct factScreen: View {
                 }
             VStack(spacing: 25) {
             NavigationLink(destination: vapeScreen()) {
-                Text("Vaping")
-                    .foregroundColor(Color.black)    .font(.title)
+                Text("Vaping/E-Cigarettes")
+                    .foregroundColor(Color.black).font(.title).padding().foregroundColor(Color.white).font(.title2).background(Rectangle() .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 1.0, opacity: 0.319))).cornerRadius(30)
 
                 }
             NavigationLink(destination: weedScreen()) {
-                Text("Weed")           .foregroundColor(Color.black)            .font(.title)
+                Text("Marijuana")           .foregroundColor(Color.black)            .font(.title).padding().foregroundColor(Color.white).font(.title2).background(Rectangle() .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 1.0, opacity: 0.319))).cornerRadius(30)
 
 
                 }
             NavigationLink(destination: healthScreen()) {
-                Text("Teen Mental Health")   .foregroundColor(Color.black).font(.title)
+                Text("Teen Mental Health")   .foregroundColor(Color.black).font(.title).padding().foregroundColor(Color.white).font(.title2).background(Rectangle() .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 1.0, opacity: 0.319))).cornerRadius(30)
 
                 }
+                
+               
+
+                }
+                }
+                
+                
+                
             }
-            
+
             }
             
           
-            }
-        }
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+            
     
     
     struct factScreen_Previews: PreviewProvider {

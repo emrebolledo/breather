@@ -15,26 +15,34 @@ struct homeScreen: View {
                 .resizable()
                 .scaledToFill()
                 .edgesIgnoringSafeArea(.all)
-            VStack {
+            
+            VStack{
                 NavigationLink(destination: mainScreen()) {
                     Text("Begin")
                         .font(.largeTitle)
                         .fontWeight(.medium)
                         .foregroundColor(Color.white)
                         .padding(12.0)
-                    
                 }.background(Rectangle() .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 1.0, opacity: 0.319))).cornerRadius(30)
-                
-                Text("Every time you try to quit smoking, you are getting closer to staying smoke-free.")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .foregroundColor(Color.white)
-                    .multilineTextAlignment(.center)
-                    .padding(17.0)
+                Text(".")
+                    .fontWeight(.ultraLight)
+                Text(".")
+                    .fontWeight(.ultraLight)
+                VStack{
+                    Text("Every time you try to quit smoking, you are getting closer to staying smoke-free.")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        .padding(17.0)
+                }
             }
+            .padding(1.0)
             
             }
         }
+       
+        
     }
 }
 

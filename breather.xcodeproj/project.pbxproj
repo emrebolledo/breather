@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5E19612A697E8C00DEB097 /* achieveMents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E19602A697E8C00DEB097 /* achieveMents.swift */; };
 		BD661FBA2A686958009C94FC /* vapeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD661FB92A686958009C94FC /* vapeScreen.swift */; };
 		BD661FBC2A686968009C94FC /* weedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD661FBB2A686968009C94FC /* weedScreen.swift */; };
 		BD661FBE2A686978009C94FC /* healthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD661FBD2A686978009C94FC /* healthScreen.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5E19602A697E8C00DEB097 /* achieveMents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = achieveMents.swift; sourceTree = "<group>"; };
 		BD661FB92A686958009C94FC /* vapeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vapeScreen.swift; sourceTree = "<group>"; };
 		BD661FBB2A686968009C94FC /* weedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weedScreen.swift; sourceTree = "<group>"; };
 		BD661FBD2A686978009C94FC /* healthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthScreen.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				BD9892072A6713B3001CC2F9 /* homeScreen.swift */,
 				BDD7D2542A6718150046E882 /* mainScreen.swift */,
 				BD7BE1F22A67289E006E4EF7 /* trackerScreen.swift */,
+				BD5E19602A697E8C00DEB097 /* achieveMents.swift */,
 				BD7BE1F42A6728CB006E4EF7 /* factScreen.swift */,
 				BD7BE1F62A6728ED006E4EF7 /* resourceScreen.swift */,
 				BD7BE1FA2A672919006E4EF7 /* dictScreen.swift */,
@@ -171,6 +174,7 @@
 				BD7BE1F72A6728ED006E4EF7 /* resourceScreen.swift in Sources */,
 				BD7BE1F92A672902006E4EF7 /* aboutUs.swift in Sources */,
 				BD7BE1F52A6728CB006E4EF7 /* factScreen.swift in Sources */,
+				BD5E19612A697E8C00DEB097 /* achieveMents.swift in Sources */,
 				BD661FBA2A686958009C94FC /* vapeScreen.swift in Sources */,
 				BD9892082A6713B3001CC2F9 /* homeScreen.swift in Sources */,
 				BD661FBE2A686978009C94FC /* healthScreen.swift in Sources */,
